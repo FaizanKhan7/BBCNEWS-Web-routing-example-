@@ -1,0 +1,28 @@
+.newServices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+.newServices p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.3rem;
+}
+
+.newServices h4 {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
