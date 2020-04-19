@@ -6,6 +6,7 @@ import About from "./About";
 import shop from "./shop";
 import Contact from "./Contact";
 import styles from "./app.module.css";
+import Footer from "./Footer";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/services" component={services} />
           <Route path="/about" component={About} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
