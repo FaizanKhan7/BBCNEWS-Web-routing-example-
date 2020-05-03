@@ -8,3 +8,12 @@
     font-size: 1.2rem;
     padding: 20px;
 }
+
+.mainfooter p {
+    font-weight: 900;
+}
+
+.mainfooter p span {
+    color: red;
+    font-weight: 900;
+}

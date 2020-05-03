@@ -5,7 +5,9 @@ class Footer extends Component {
   render() {
     return (
       <div className={styles.mainfooter}>
-        <p>&copy; BBC NEWS</p>
+        <p>
+          &copy; NEWS <span>REAL</span>
+        </p>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import styles from "../Services/services.module.css";
+import styles from "../World/world.module.css";
 
-function About() {
+function Bitcoin() {
   useEffect(() => {
     fetchNewItem();
   }, []);
@@ -19,7 +19,7 @@ function About() {
   };
 
   return (
-    <div className={styles.newServices}>
+    <div className={styles.newWorld}>
       {Newitem.map((article) => (
         <>
           <h1>{article.title}</h1>
@@ -33,4 +33,4 @@ function About() {
   );
 }
 
-export default About;
+export default Bitcoin;
