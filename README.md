@@ -2,4 +2,4 @@
 
 ## Demo
 
-https://bbc-news.netlify.app/
+https://news-real.netlify.app/
