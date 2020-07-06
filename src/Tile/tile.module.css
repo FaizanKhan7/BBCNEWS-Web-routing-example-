@@ -1,0 +1,27 @@
+.tiles {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    width: 200px;
+    border-radius: 5px;
+    transition: all 250ms;
+    box-shadow: 0px 0px 10px 0.2px #363535;
+}
+
+.tiles h3 {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.tiles:hover,
+.tiles:focus {
+    background-color: #fff;
+    border: none;
+}
