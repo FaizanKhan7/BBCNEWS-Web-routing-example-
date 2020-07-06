@@ -7,6 +7,7 @@ import TechnologyRoutes from "./technology/technology";
 import HealthRoutes from "./health/health";
 import ScienceRoutes from "./science/science";
 import SportsRoutes from "./sports/sports";
+import Footer from "./Footer/Footer";
 
 function Real() {
   return (
@@ -35,6 +36,7 @@ function Real() {
           <Tile name="Sports" />
         </Link>
       </div>
+      <Footer />
     </>
   );
 }
