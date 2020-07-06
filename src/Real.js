@@ -7,16 +7,12 @@ import TechnologyRoutes from "./technology/technology";
 import HealthRoutes from "./health/health";
 import ScienceRoutes from "./science/science";
 import SportsRoutes from "./sports/sports";
+import Header from "./Header/header";
 import Footer from "./Footer/Footer";
-
 function Real() {
   return (
     <>
-      <div className={styles.logo}>
-        <h1>
-          news <span>real</span>
-        </h1>
-      </div>
+      <Header />
       <div className={styles.content}>
         <p>Checkout the latest updates accross the world</p>
 
