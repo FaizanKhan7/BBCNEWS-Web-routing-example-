@@ -1,4 +1,62 @@
+.healthbg {
+    background-color: #d2dad7;
+}
+
 .healthStyle {
     padding-top: 80px;
-    color: tomato;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.healthnews {
+    max-width: 600px;
+    margin: 10px auto 0;
+    padding-bottom: 20px;
+}
+
+.healthnews a {
+    text-decoration: none;
+    color: #000;
+}
+
+.healthnews h2 {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.healthnews a:hover,
+.healthnews a:focus {
+    color: rgb(207, 0, 0);
+}
+
+.healthnews img {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.healthnews p {
+    width: 90%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.healthnews p a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(1, 1, 126);
+    margin: 0 10px;
+    border-bottom: 2px solid rgb(1, 1, 126);
+    font-weight: 700;
+}
+
+.healthnews p a:hover,
+.healthnews p a:focus {
+    color: rgb(207, 0, 0);
+    border-bottom-color: rgb(207, 0, 0);
+}
+
+.healthnews h4 {
+    width: 90%;
+    margin: 5px auto 0;
 }

@@ -1,4 +1,62 @@
+.sportbg {
+    background-color: #d2dad7;
+}
+
 .sportStyle {
     padding-top: 80px;
-    color: red;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.sportnews {
+    max-width: 600px;
+    margin: 10px auto 0;
+    padding-bottom: 20px;
+}
+
+.sportnews a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sportnews h2 {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sportnews a:hover,
+.sportnews a:focus {
+    color: rgb(207, 0, 0);
+}
+
+.sportnews img {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sportnews p {
+    width: 90%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.sportnews p a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(1, 1, 126);
+    margin: 0 10px;
+    border-bottom: 2px solid rgb(1, 1, 126);
+    font-weight: 700;
+}
+
+.sportnews p a:hover,
+.sportnews p a:focus {
+    color: rgb(207, 0, 0);
+    border-bottom-color: rgb(207, 0, 0);
+}
+
+.sportnews h4 {
+    width: 90%;
+    margin: 5px auto 0;
 }
