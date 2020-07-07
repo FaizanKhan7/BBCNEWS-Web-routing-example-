@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import styles from "./health.module.css";
-import Header from "../Header/header";
+import Header from "../components/Header/header";
 
 class HealthNews extends Component {
   render() {

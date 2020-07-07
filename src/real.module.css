@@ -14,6 +14,7 @@
 }
 
 .content p {
+    line-height: 1.5;
     text-align: center;
     text-transform: uppercase;
     padding: 100px 0 10px 0;

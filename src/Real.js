@@ -1,20 +1,23 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import styles from "./real.module.css";
-import Tile from "./Tile/Tile";
+import Tile from "./components/Tile/Tile";
 import BusinessRoutes from "./business/BusinessNews";
 import TechnologyRoutes from "./technology/technology";
 import HealthRoutes from "./health/health";
 import ScienceRoutes from "./science/science";
 import SportsRoutes from "./sports/sports";
-import Header from "./Header/header";
-import Footer from "./Footer/Footer";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/Footer";
 function Real() {
   return (
     <>
       <Header />
       <div className={styles.content}>
-        <p>Checkout the latest updates accross the world</p>
+        <p>
+          Checkout the latest updates on Business, Technology, Science, Health &
+          Sports accross the world
+        </p>
 
         <Link to="/business">
           <Tile name="Business" />

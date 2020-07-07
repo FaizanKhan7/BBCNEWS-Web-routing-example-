@@ -1,3 +1,62 @@
+.businessbg {
+    background-color: #d2dad7;
+}
+
 .businessStyle {
     padding-top: 80px;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.Businessnews {
+    max-width: 600px;
+    margin: 10px auto 0;
+    padding-bottom: 20px;
+}
+
+.Businessnews a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Businessnews h2 {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.Businessnews a:hover,
+.Businessnews a:focus {
+    color: rgb(207, 0, 0);
+}
+
+.Businessnews img {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.Businessnews p {
+    width: 90%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.Businessnews p a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(1, 1, 126);
+    margin: 0 10px;
+    border-bottom: 2px solid rgb(1, 1, 126);
+    font-weight: 700;
+}
+
+.Businessnews p a:hover,
+.Businessnews p a:focus {
+    color: rgb(207, 0, 0);
+    border-bottom-color: rgb(207, 0, 0);
+}
+
+.Businessnews h4 {
+    width: 90%;
+    margin: 5px auto 0;
 }
