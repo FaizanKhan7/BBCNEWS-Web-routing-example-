@@ -10,7 +10,7 @@ class ScienceNews extends Component {
 
   async componentDidMount() {
     const url =
-      "http://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=22834ea9211247c390fc7419f6b0f406";
+      "https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=22834ea9211247c390fc7419f6b0f406";
     const response = await fetch(url);
     const data = await response.json();
     this.setState({ article: data.articles[0], loading: false });
