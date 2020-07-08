@@ -36,7 +36,7 @@ class BusinessNews extends Component {
         <div>
           <div className={styles.Businessnews}>
             {this.state.allArticle.map((article) => (
-              <>
+              <div key={article.publishedAt}>
                 <a href={article.url}>
                   <h2>{article.title}</h2>
                 </a>
@@ -51,7 +51,7 @@ class BusinessNews extends Component {
                 <h4>Author - {article.author}</h4>
                 <h4>Published On - {article.publishedAt}</h4>
                 <div className={styles.underline}></div>
-              </>
+              </div>
             ))}
           </div>
           <Footer />
