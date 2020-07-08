@@ -60,3 +60,9 @@
     width: 90%;
     margin: 5px auto 0;
 }
+
+.underline {
+    margin: 10px 10px 20px;
+    border-bottom: 1px solid #b2b3b3;
+    box-shadow: 0px 5px 15px 1px rgb(110, 110, 110);
+}
